@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/Meenakshi/Testing-Practice" parallel="methods" thread-count="2">
+    <test verbose="2" preserve-order="true"
+          name="Tests"  parallel="methods" thread-count="3">
         <classes>
-            <class name="org.example.AdminLoginTest">
-                <methods>
-                    <include name="adminLogin"/>
+<!--            <class name="org.example.IncludeExclude">-->
+<!--                <methods>-->
+<!--                    <include name="m4"> </include>//only included method will execute if we give any include,-->
+
+<!--                    <exclude name="m1"> </exclude>-->
+<!--                    <exclude name="m2"> </exclude>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+            <class name="org.example.PriorityAttributes">
+                <methods> // all will execute if no include has given.
+
                 </methods>
             </class>
 
-            <class name="org.example.InvalidLoginTest">
-                <methods>
-                    <include name="InvalidLogin"/>
-                </methods>
-            </class>
-            <class name="org.example.PersonaldetailsTest">
-                <methods>
-                    <exclude name="Details"/>
-                </methods>
-            </class>
-            <class name="org.example.UserLoginTest">
-                <methods>
-                    <include name="userLogin"/>
-                </methods>
-            </class>
+<!--            <class name="org.example.InvocationAttribute">-->
+<!--                <methods> //all will execute except Text3.-->
+<!--                    <exclude name="Text3"/>-->
+<!--                </methods>-->
+<!--            </class>-->
         </classes>
     </test>
 </suite>
+

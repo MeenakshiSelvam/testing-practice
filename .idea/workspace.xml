@@ -6,6 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="ca1a47fb-5adb-44fe-8f8d-1607a66e442a" name="Changes" comment="testing practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include_exclude.xml" beforeDir="false" afterPath="$PROJECT_DIR$/include_exclude.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DependencyAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DependencyAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/EnabledAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/EnabledAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HardDependencyAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HardDependencyAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/IncludeExclude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/IncludeExclude.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/InvocationAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/InvocationAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PriorityAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PriorityAttributes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SoftDependencyAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SoftDependencyAttribute.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -41,31 +55,23 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Meenakshi/Testing-Practice&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/Meenakshi/Testing-Practice/testng.xml">
-    <configuration name="AdminLoginTest.adminLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Meenakshi\Testing-Practice" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SoftDependencyAttribute">
+    <configuration name="C:/Users/Meenakshi/Testing-Practice/dependency.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AdminLoginTest" />
-      <option name="METHOD_NAME" value="adminLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Meenakshi/Testing-Practice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testing-Practice" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/dependency.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -73,24 +79,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvalidLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Meenakshi/Testing-Practice/include_exclude.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.InvalidLoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/include_exclude.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonaldetailsTest.Details" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DependencyAttribute.OpenAmazonWebsite" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing-Practice" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +98,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PersonaldetailsTest" />
-      <option name="METHOD_NAME" value="Details" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DependencyAttribute" />
+      <option name="METHOD_NAME" value="OpenAmazonWebsite" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -108,28 +107,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.AdminLoginTest and 3 more" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HardDependencyAttribute" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing-Practice" />
-      <option name="TEST_OBJECT" value="PATTERN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.HardDependencyAttribute" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <patterns>
-        <pattern testClass="org.example.AdminLoginTest" />
-        <pattern testClass="org.example.InvalidLoginTest" />
-        <pattern testClass="org.example.PersonaldetailsTest" />
-        <pattern testClass="org.example.UserLoginTest" />
-      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftDependencyAttribute" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SoftDependencyAttribute" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Meenakshi/Testing-Practice/testng.xml" />
-        <item itemvalue="TestNG.PersonaldetailsTest.Details" />
-        <item itemvalue="TestNG.org.example.AdminLoginTest and 3 more" />
-        <item itemvalue="TestNG.InvalidLoginTest" />
-        <item itemvalue="TestNG.AdminLoginTest.adminLogin" />
+        <item itemvalue="TestNG.SoftDependencyAttribute" />
+        <item itemvalue="TestNG.HardDependencyAttribute" />
+        <item itemvalue="TestNG.DependencyAttribute.OpenAmazonWebsite" />
+        <item itemvalue="TestNG.C:/Users/Meenakshi/Testing-Practice/dependency.xml" />
+        <item itemvalue="TestNG.C:/Users/Meenakshi/Testing-Practice/include_exclude.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695183643197</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="testing practice">
+      <created>1695185014057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695185014057</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

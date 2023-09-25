@@ -2,28 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="Tests" >
+          name="Tests"   parallel="methods" thread-count="2">
         <classes>
-            <class name="org.example.IncludeExclude">
-                <methods>
-                    <include name="m4"> </include>//only included method will execute if we give any include,
-
-                    <exclude name="m1"> </exclude>
-                    <exclude name="m2"> </exclude>
-                </methods>
+            <class name="org.example.DependencyAttribute">
             </class>
 
-            <class name="org.example.PriorityAttributes">
-                <methods> // all will execute if no include has given.
 
-                </methods>
-            </class>
-
-            <class name="org.example.InvocationAttribute">
-                <methods> //all will execute except Text3.
-                    <exclude name="Text3"/>
-                </methods>
-            </class>
         </classes>
     </test>
 </suite>
