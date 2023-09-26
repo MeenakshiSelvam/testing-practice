@@ -17,6 +17,7 @@ public class LoginPage {
     }
     public void fillUsername(String username) {
         ld.findElement(USERNAME).clear();
+
         ld.findElement(USERNAME).sendKeys(username);
     }
     public void fillPassword(String password) {

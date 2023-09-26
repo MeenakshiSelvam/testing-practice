@@ -7,14 +7,9 @@
     <list default="true" id="ca1a47fb-5adb-44fe-8f8d-1607a66e442a" name="Changes" comment="testing practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dependency.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include_exclude.xml" beforeDir="false" afterPath="$PROJECT_DIR$/include_exclude.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DependencyAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DependencyAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/EnabledAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/EnabledAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HardDependencyAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HardDependencyAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/IncludeExclude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/IncludeExclude.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/InvocationAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/InvocationAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PriorityAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PriorityAttributes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SoftDependencyAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SoftDependencyAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyInfoPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,28 +63,48 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SoftDependencyAttribute">
+  <component name="RunManager" selected="TestNG.DataProviderAttribute">
     <configuration name="C:/Users/Meenakshi/Testing-Practice/dependency.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing-Practice" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/dependency.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Meenakshi/Testing-Practice/include_exclude.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Meenakshi/Testing-Practice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing-Practice" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/include_exclude.xml" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependencyAttribute.OpenAmazonWebsite" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProviderAttribute" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing-Practice" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +113,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DependencyAttribute" />
-      <option name="METHOD_NAME" value="OpenAmazonWebsite" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataProviderAttribute" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProviderAttribute.logOut" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataProviderAttribute" />
+      <option name="METHOD_NAME" value="logOut" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardDependencyAttribute" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProviderAttribute.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing-Practice" />
       <extension name="coverage">
         <pattern>
@@ -116,38 +148,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.HardDependencyAttribute" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataProviderAttribute" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoftDependencyAttribute" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testing-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SoftDependencyAttribute" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="TestNG.DataProviderAttribute" />
+      <item itemvalue="TestNG.C:/Users/Meenakshi/Testing-Practice/dependency.xml" />
+      <item itemvalue="TestNG.C:/Users/Meenakshi/Testing-Practice/testng.xml" />
+      <item itemvalue="TestNG.DataProviderAttribute.login" />
+      <item itemvalue="TestNG.DataProviderAttribute.logOut" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SoftDependencyAttribute" />
-        <item itemvalue="TestNG.HardDependencyAttribute" />
-        <item itemvalue="TestNG.DependencyAttribute.OpenAmazonWebsite" />
+        <item itemvalue="TestNG.DataProviderAttribute" />
         <item itemvalue="TestNG.C:/Users/Meenakshi/Testing-Practice/dependency.xml" />
-        <item itemvalue="TestNG.C:/Users/Meenakshi/Testing-Practice/include_exclude.xml" />
+        <item itemvalue="TestNG.C:/Users/Meenakshi/Testing-Practice/testng.xml" />
+        <item itemvalue="TestNG.DataProviderAttribute.logOut" />
+        <item itemvalue="TestNG.DataProviderAttribute.login" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +205,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -191,5 +226,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing practice" />
     <option name="LAST_COMMIT_MESSAGE" value="testing practice" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/DataProviderAttribute.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
