@@ -4,72 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca1a47fb-5adb-44fe-8f8d-1607a66e442a" name="Changes" comment="Attributes">
-      <change afterPath="$PROJECT_DIR$/Hooks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assertions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/groups.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listener.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parameter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Attributes/GroupAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Attributes/ParametersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/AdminLoginConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/HardAssertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/Hooks/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/Hooks/Hooks2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/Listeners/AdminLoginTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/Listeners/ExtentReportListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/Listeners/MyListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/SoftAssertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Attributes.DependencyAttribute.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-reports/AutomationReport.html" afterDir="false" />
+    <list default="true" id="ca1a47fb-5adb-44fe-8f8d-1607a66e442a" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config1.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include_exclude.xml" beforeDir="false" afterPath="$PROJECT_DIR$/include_exclude.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/MyInfoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AdminLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/AdminLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DataProvider2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/DataProvider2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DataProviderAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/DataProviderAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DependencyAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/DependencyAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/EnabledAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/EnabledAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HardDependencyAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/HardDependencyAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/IncludeExclude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/IncludeExclude.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/InvalidLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/InvalidLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/InvocationAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/InvocationAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PersonaldetailsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/PersonaldetailsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PriorityAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/PriorityAttributes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SoftDependencyAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/SoftDependencyAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UserLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/UserLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/Tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/Tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Dependency Suite/Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Dependency Suite/Tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Dependency Suite/Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Dependency Suite/Tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Test1/Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Test1/Tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Test1/Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Test1/Tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-org.example.DependencyAttribute.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-org.example.DependencyAttribute.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Dependency Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Dependency Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Dependency Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Dependency Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Dependency Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Dependency Suite/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Dependency Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Dependency Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Dependency Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Dependency Suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Test1/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Test1/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Test1/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Test1/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Test1/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Test1/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Test1/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Test1/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Test1/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Test1/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695708865834</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes">
+      <created>1699087004460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699087004460</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,6 +247,7 @@
     <MESSAGE value="testing practice" />
     <MESSAGE value="Attribute" />
     <MESSAGE value="Attributes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Attributes" />
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
 </project>
