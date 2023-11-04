@@ -1,4 +1,4 @@
-package org.example;
+package Attributes;
 
 import org.testng.annotations.Test;
 
@@ -11,6 +11,7 @@ public class EnabledAttribute {
         System.out.println("Method A");
     }
 
+    //enable false - not execute.
     @Test(enabled = false)
     public void msg2()
     {

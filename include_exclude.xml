@@ -13,13 +13,13 @@
 <!--                </methods>-->
 <!--            </class>-->
 
-            <class name="org.example.PriorityAttributes">
+            <class name="Attributes.PriorityAttributes">
                 <methods> // all will execute if no include has given.
 
                 </methods>
             </class>
 
-<!--            <class name="org.example.InvocationAttribute">-->
+<!--            <class name="Attributes.InvocationAttribute">-->
 <!--                <methods> //all will execute except Text3.-->
 <!--                    <exclude name="Text3"/>-->
 <!--                </methods>-->

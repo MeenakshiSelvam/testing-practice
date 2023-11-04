@@ -1,4 +1,4 @@
-package org.example;
+package org.TestClasses;
 
 import org.testng.annotations.Test;
 
@@ -18,7 +18,7 @@ public class IncludeExclude {
     }
 
 
-    @Test()
+    @Test
     public void m3()
     {
         System.out.println("Method3");

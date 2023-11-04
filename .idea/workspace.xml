@@ -4,12 +4,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca1a47fb-5adb-44fe-8f8d-1607a66e442a" name="Changes" comment="testing practice">
+    <list default="true" id="ca1a47fb-5adb-44fe-8f8d-1607a66e442a" name="Changes" comment="Attributes">
+      <change afterPath="$PROJECT_DIR$/Hooks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assertions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listener.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parameter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Attributes/GroupAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Attributes/ParametersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/AdminLoginConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/HardAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/Hooks/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/Hooks/Hooks2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/Listeners/AdminLoginTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/Listeners/ExtentReportListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/Listeners/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/SoftAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Attributes.DependencyAttribute.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-reports/AutomationReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dependency.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyInfoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include_exclude.xml" beforeDir="false" afterPath="$PROJECT_DIR$/include_exclude.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/MyInfoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AdminLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/AdminLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DataProvider2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/DataProvider2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DataProviderAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/DataProviderAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DependencyAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/DependencyAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/EnabledAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/EnabledAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HardDependencyAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/HardDependencyAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/IncludeExclude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/IncludeExclude.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/InvalidLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/InvalidLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/InvocationAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/InvocationAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PersonaldetailsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/PersonaldetailsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PriorityAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/PriorityAttributes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SoftDependencyAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Attributes/SoftDependencyAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UserLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/TestClasses/UserLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Dependency Suite/Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Dependency Suite/Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Dependency Suite/Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Dependency Suite/Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Test1/Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Test1/Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Test1/Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Test1/Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-org.example.DependencyAttribute.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-org.example.DependencyAttribute.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Dependency Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Dependency Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Dependency Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Dependency Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Dependency Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Dependency Suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Dependency Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Dependency Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Dependency Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Dependency Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Test1/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Test1/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Test1/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Test1/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Test1/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Test1/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Test1/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Test1/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Test1/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Test1/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +101,16 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2VNJjKw7d1JW5OIlT19CXclgekp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -59,79 +122,30 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Meenakshi\Testing-Practice" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.TestClasses.Listeners" />
+      <recent name="org.TestClasses" />
+      <recent name="org.TestClasses.Hooks" />
+      <recent name="Attributes" />
+      <recent name="org.example" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.TestClasses" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DataProviderAttribute">
-    <configuration name="C:/Users/Meenakshi/Testing-Practice/dependency.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testing-Practice" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/dependency.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Meenakshi/Testing-Practice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testing-Practice" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataProviderAttribute" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AdminLoginConfigTest.adminLogin">
+    <configuration name="AdminLoginConfigTest.adminLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing-Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.TestClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DataProviderAttribute" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataProviderAttribute.logOut" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testing-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DataProviderAttribute" />
-      <option name="METHOD_NAME" value="logOut" />
+      <option name="PACKAGE_NAME" value="org.TestClasses" />
+      <option name="MAIN_CLASS_NAME" value="org.TestClasses.AdminLoginConfigTest" />
+      <option name="METHOD_NAME" value="adminLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,17 +153,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataProviderAttribute.login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminLoginTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing-Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.TestClasses.Listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DataProviderAttribute" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="PACKAGE_NAME" value="org.TestClasses.Listeners" />
+      <option name="MAIN_CLASS_NAME" value="org.TestClasses.Listeners.AdminLoginTest2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigTest.configFromFile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConfigTest" />
+      <option name="METHOD_NAME" value="configFromFile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HardAssertions.loginTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.TestClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.TestClasses" />
+      <option name="MAIN_CLASS_NAME" value="org.TestClasses.HardAssertions" />
+      <option name="METHOD_NAME" value="loginTest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HardAssertions.loginTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.TestClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.TestClasses" />
+      <option name="MAIN_CLASS_NAME" value="org.TestClasses.HardAssertions" />
+      <option name="METHOD_NAME" value="loginTest2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,19 +219,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.DataProviderAttribute" />
-      <item itemvalue="TestNG.C:/Users/Meenakshi/Testing-Practice/dependency.xml" />
-      <item itemvalue="TestNG.C:/Users/Meenakshi/Testing-Practice/testng.xml" />
-      <item itemvalue="TestNG.DataProviderAttribute.login" />
-      <item itemvalue="TestNG.DataProviderAttribute.logOut" />
+      <item itemvalue="TestNG.AdminLoginConfigTest.adminLogin" />
+      <item itemvalue="TestNG.ConfigTest.configFromFile" />
+      <item itemvalue="TestNG.AdminLoginTest2" />
+      <item itemvalue="TestNG.HardAssertions.loginTest1" />
+      <item itemvalue="TestNG.HardAssertions.loginTest2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DataProviderAttribute" />
-        <item itemvalue="TestNG.C:/Users/Meenakshi/Testing-Practice/dependency.xml" />
-        <item itemvalue="TestNG.C:/Users/Meenakshi/Testing-Practice/testng.xml" />
-        <item itemvalue="TestNG.DataProviderAttribute.logOut" />
-        <item itemvalue="TestNG.DataProviderAttribute.login" />
+        <item itemvalue="TestNG.AdminLoginConfigTest.adminLogin" />
+        <item itemvalue="TestNG.ConfigTest.configFromFile" />
+        <item itemvalue="TestNG.AdminLoginTest2" />
+        <item itemvalue="TestNG.HardAssertions.loginTest1" />
+        <item itemvalue="TestNG.HardAssertions.loginTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695185014057</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Attribute">
+      <created>1695708833403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695708833403</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Attributes">
+      <created>1695708865834</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695708865834</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,18 +299,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="testing practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing practice" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/DataProviderAttribute.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Attribute" />
+    <MESSAGE value="Attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attributes" />
   </component>
 </project>

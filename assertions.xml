@@ -3,12 +3,12 @@
 <suite name="Test1">
     <test verbose="2" preserve-order="true"
           name="Tests"  >
+
         <classes>
-            <class name="Attributes.DependencyAttribute">
-                <methods>
-                <include name="OpenAmazonWebsite">
-                </include>
-                </methods>
+
+            <class name="org.TestClasses.HardAssertions">
+
+
             </class>
 
 

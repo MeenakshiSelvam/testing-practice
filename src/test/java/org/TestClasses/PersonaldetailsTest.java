@@ -1,5 +1,7 @@
-package org.example;
+package org.TestClasses;
 
+import PageObjectModel.LoginPage;
+import PageObjectModel.MyInfoPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;

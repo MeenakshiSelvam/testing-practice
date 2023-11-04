@@ -3,12 +3,15 @@
 <suite name="Test1">
     <test verbose="2" preserve-order="true"
           name="Tests"  >
+
+        <groups>
+            <run>
+               <exclude name="smoke"></exclude>
+            </run>
+        </groups>
         <classes>
-            <class name="Attributes.DependencyAttribute">
-                <methods>
-                <include name="OpenAmazonWebsite">
-                </include>
-                </methods>
+            <class name="Attributes.GroupAttribute">
+
             </class>
 
 

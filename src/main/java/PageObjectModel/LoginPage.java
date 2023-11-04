@@ -1,4 +1,4 @@
-package org.example;
+package PageObjectModel;
 
 
 import org.openqa.selenium.By;

@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Test1">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test1" title="org.example.DependencyAttribute" class="method navigator-link" hash-for-method="OpenAmazonWebsite">OpenAmazonWebsite</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Test1" title="Attributes.DependencyAttribute" class="method navigator-link" hash-for-method="OpenAmazonWebsite">OpenAmazonWebsite</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Test1 -->
@@ -121,7 +121,7 @@
           <div class="suite-Test1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.example.DependencyAttribute</span>
+              <span class="class-name">Attributes.DependencyAttribute</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -147,11 +147,11 @@
 &lt;suite name=&quot;Test1&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Tests&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;org.example.DependencyAttribute&quot;&gt;
+      &lt;class name=&quot;Attributes.DependencyAttribute&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;OpenAmazonWebsite&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- org.example.DependencyAttribute --&gt;
+      &lt;/class&gt; &lt;!-- Attributes.DependencyAttribute --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Tests --&gt;
 &lt;/suite&gt; &lt;!-- Test1 --&gt;
@@ -194,8 +194,8 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'OpenAmazonWebsite')
-data.setCell(0, 2, 'org.example.DependencyAttribute')
-data.setCell(0, 3, 5008);
+data.setCell(0, 2, 'Attributes.DependencyAttribute')
+data.setCell(0, 3, 5010);
 window.suiteTableData['Test1']= { tableData: data, tableDiv: 'times-div-Test1'}
 return data;
 }
@@ -219,29 +219,29 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">org.example.DependencyAttribute</span>
+              <span class="ignored-class-name">Attributes.DependencyAttribute</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">registerOnFlipkart</span>
+                <br/>
+                <span class="ignored-method-name">purchaseOnFlipkart</span>
+                <br/>
+                <span class="ignored-method-name">makePaymentOnFlipkart</span>
+                <br/>
+                <span class="ignored-method-name">loginOnAmazon</span>
+                <br/>
+                <span class="ignored-method-name">registerOnAmazon</span>
+                <br/>
+                <span class="ignored-method-name">addToCartOnFlipkart</span>
+                <br/>
+                <span class="ignored-method-name">addToCartOnAmazon</span>
+                <br/>
                 <span class="ignored-method-name">makePaymentOnAmazon</span>
                 <br/>
                 <span class="ignored-method-name">openFlipkartWebsite</span>
                 <br/>
-                <span class="ignored-method-name">loginOnAmazon</span>
-                <br/>
-                <span class="ignored-method-name">registerOnFlipkart</span>
-                <br/>
-                <span class="ignored-method-name">registerOnAmazon</span>
-                <br/>
-                <span class="ignored-method-name">purchaseOnFlipkart</span>
-                <br/>
-                <span class="ignored-method-name">addToCartOnAmazon</span>
-                <br/>
-                <span class="ignored-method-name">loginOnFlipkart</span>
-                <br/>
                 <span class="ignored-method-name">purchaseOnAmazon</span>
                 <br/>
-                <span class="ignored-method-name">addToCartOnFlipkart</span>
-                <br/>
-                <span class="ignored-method-name">makePaymentOnFlipkart</span>
+                <span class="ignored-method-name">loginOnFlipkart</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -253,7 +253,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">org.example.DependencyAttribute</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Attributes.DependencyAttribute</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">OpenAmazonWebsite</span>
                 <span class="method-start">0 ms</span>

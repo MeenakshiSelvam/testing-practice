@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test1">
+    <test verbose="2" preserve-order="true"
+          name="Tests"  >
+
+
+        <parameter name="title" value="Discovery of India">
+
+        </parameter>
+        <parameter name="author" value="Jawaharlal Nehru">
+
+        </parameter>
+        <parameter name="count" value="2"></parameter>
+        <parameter name="KBname" value="Alice in Wonderland"></parameter>
+        <parameter name="CBname" value="Core Java"></parameter>
+
+        <classes>
+
+            <class name="Attributes.ParametersTest">
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
+

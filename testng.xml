@@ -19,7 +19,7 @@
                     <exclude name="Details"/>
                 </methods>
             </class>
-            <class name="org.example.UserLoginTest">
+            <class name="org.TestClasses.UserLoginTest">
                 <methods>
                     <include name="userLogin"/>
                 </methods>
